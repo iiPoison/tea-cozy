@@ -1,4 +1,4 @@
-body {
+body { /* global property */
   margin: 0;
   font-family: Helvetica;
   font-size: 22px;
@@ -9,7 +9,7 @@ body {
   justify-content: center;
 }
 
-header {
+header { /* block 1 header property */
   position: fixed;
   height: 69px;
   width: 100%;
@@ -21,23 +21,23 @@ header {
   z-index: 2;
 }
 
-header img {
+header img { /* block 1 logo property */
   height: 50px;
   width: auto;
   margin: auto 10px;
 }
 
-nav span {
+nav span { /* block 1 navigation property */
   text-decoration: underline;
   display: inline-block;
   padding: 20px 10px;
 }
 
-nav span a {
+nav span a { /* block 1 anchor property */
   color:  seashell;
 }
 
-.mission {
+.mission { /* block 2 main property */
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
@@ -46,13 +46,13 @@ nav span a {
   align-items: center;
 }
 
-.mission-text {
+.mission-text { /* block 2 content property */
   background-color: black;
   width: 1200px;
 
 }
 
-h2, h4 {
+h2, h4 { /* block 2 header property */
   text-align: center;
   font-weight: bold;
   margin: 0;
