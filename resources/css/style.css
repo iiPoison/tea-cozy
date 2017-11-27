@@ -6,10 +6,14 @@ body { /* global property */
   color: seashell;
   opacity: 0.9;
   display: flex;
-  justify-content: center;
+  /* justify-content: center;*/ /*delete */
+  align-items: center;
+  flex-direction: column;
 }
 
 header { /* block 1 header property */
+  top: 0;
+  left: 0;
   position: fixed;
   height: 69px;
   width: 100%;
@@ -19,6 +23,7 @@ header { /* block 1 header property */
   text-align: center;
   border-bottom: 1px solid seashell;
   z-index: 2;
+  background-color: black;
 }
 
 header img { /* block 1 logo property */
@@ -52,9 +57,42 @@ nav span a { /* block 1 anchor property */
 
 }
 
-h2, h4 { /* block 2 header property */
+h2, h4 { /* block 2 and 3 header property */
   text-align: center;
   font-weight: bold;
   margin: 0;
   padding: 10px;
+}
+
+.tea-of-the-month { /* block 3 main conteiner proprty */
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  justify-content: center; /* alignment main axis */
+  flex-direction: column;
+}
+
+.tea-of-the-month-header { /* block 3 header */
+  width: 1000px;
+}
+
+.img-content { /* block 3 img conteiner with text */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding: 5px;
+}
+
+.img-content img { /* block 3 img property */
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+}
+
+.img-content span { /* blovk 3 text under img property */
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
 }
