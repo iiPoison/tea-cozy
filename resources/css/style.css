@@ -134,3 +134,9 @@ h2, h3, h4 { /* block 2 and 3 header property */
   height: 200px;
   text-align: center;
 }
+
+footer { /* block 6 footer proprty */
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
