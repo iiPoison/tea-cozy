@@ -101,7 +101,7 @@ h2, h3, h4 { /* block 2 and 3 header property */
 #locations { /* block 4 main conteiner proprty */
   height: 500px;
   width: 1200px;
-  padding-top: 70px;
+  margin-top: 70px;
   background-image: url("../images/img-locations-background.jpg");
   display: flex;
   align-items: center;
@@ -109,26 +109,23 @@ h2, h3, h4 { /* block 2 and 3 header property */
   flex-direction: column;
 }
 
-.specific {
+.specific { /* block 4 conteiner for header and tree black text-block */
   display: inline-flex;
-  margin: auto;
+/*  margin: auto; */ /* delete */
   width: 1100px;
   padding-top: 5px;
   flex-wrap: wrap;
-
 }
 
-.info {
+.info { /* block 4 tree black text-block property */
   height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
   text-align: center;
-   padding: 10px;
+  padding: 10px;
   margin: 5px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
